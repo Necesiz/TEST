@@ -1,6 +1,6 @@
 from telethon import TelegramClient
 
-Config məlumatları
+# Config məlumatları
 
 # Telegram Client (Telethon)
 API_ID = 16723398
