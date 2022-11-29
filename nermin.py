@@ -13,7 +13,7 @@ from telethon import events, Button
 import random
 
 
-@Nermin.on(events.NewMessage(pattern='(?i)salam.+'))
+@Nermin.on(events.NewMessage(pattern='(?i)salam+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(salam)}")
 
