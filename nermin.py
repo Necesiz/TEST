@@ -17,4 +17,4 @@ async def yeni_mesaj(event: events.NewMessage.Event):
   if event.is_private:
     mesaj = str(event.raw_text)
     if mesaj == "salam":
-      await event.reply("Salam")
+      await event.reply("f{random.choice(salam)}")
