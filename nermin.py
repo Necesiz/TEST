@@ -12,9 +12,9 @@ from telethon import events, Button
 
 
 
-nermin.on(events.NewMessage)
+@nermin.on(events.NewMessage)
 async def yeni_mesaj(event: events.NewMessage.Event):
   if event.is_private:
     mesaj = str(event.raw_text)
     if mesaj == "salam":
-      await event.reply("f{random.choice(salam)}")
+      await event.reply(f"{random.choice(salam)}")
