@@ -9,8 +9,17 @@
 
 from komekci.aykhan import Nermin
 from mesajlar.mesaj import salam, necesen, sagol
+from mesajlar.qrup import yeni_user
 from telethon import events, Button
 import random
+
+
+# Yeni istifadəçi mesajı
+@Nermin.on(events.ChatAction)
+async def handler(event):
+    if event.user_joined:
+        await event.reply(f"{yeni_user}")
+
 
 
 @Nermin.on(events.NewMessage(pattern='(?i)salam+'))
