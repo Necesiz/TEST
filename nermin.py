@@ -9,7 +9,7 @@
 
 from komekci.aykhan import nermin
 from telethon import events, Button
-
+import random
 
 
 @nermin.on(events.NewMessage)
