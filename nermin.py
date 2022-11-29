@@ -17,17 +17,13 @@ import random
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(salam)}")
 
-@Nermin.on(events.NewMessage)
+@Nermin.on(events.NewMessage(pattern='(?i)necəsən+necesen'))
 async def yeni_mesaj(event: events.NewMessage.Event):
-    mesaj = str(event.raw_text)
-    if mesaj == "necəsən":
-      await event.reply(f"{random.choice(necesen)}")
+    await event.reply(f"{random.choice(necesen)}")
 
-@Nermin.on(events.NewMessage)
+@Nermin.on(events.NewMessage(pattern='(?i)sağol+sagol'))
 async def yeni_mesaj(event: events.NewMessage.Event):
-    mesaj = str(event.raw_text)
-    if mesaj == "sağol":
-      await event.reply(f"{random.choice(sagol)}")
+    await event.reply(f"{random.choice(sagol)}")
 
 
 
