@@ -8,7 +8,7 @@
 
 
 from komekci.aykhan import Nermin
-from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, nermin, ban
+from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, nermin, ban, start
 from mesajlar.qrup import yeni_user
 from telethon import events, Button
 import random
@@ -21,6 +21,10 @@ async def handler(event):
         await event.reply(f"{random.choice(yeni_user)}")
 
 
+
+@Nermin.on(events.NewMessage(pattern='(?i)/start+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(start)}")
 
 @Nermin.on(events.NewMessage(pattern='(?i)salam+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
