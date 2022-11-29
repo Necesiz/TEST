@@ -17,7 +17,9 @@ import random
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(salam)}")
 
-@Nermin.on(events.NewMessage(pattern=r'necəsən (\w+)!'))
+@Nermin.on(events.NewMessage(pattern='(?i)necəsən+'))
+@Nermin.on(events.NewMessage(pattern='(?i)necesen+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nətərsən+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(necesen)}")
 
