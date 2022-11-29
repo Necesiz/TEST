@@ -8,6 +8,7 @@
 
 
 from komekci.aykhan import nermin
+from mesajlar.salam import salam
 from telethon import events, Button
 import random
 
@@ -18,3 +19,6 @@ async def yeni_mesaj(event: events.NewMessage.Event):
     mesaj = str(event.raw_text)
     if mesaj == "salam":
       await event.reply(f"{random.choice(salam)}")
+
+print(">> Nermin qoz kimi işləyir ♿ @RoBotlarimTg @aykhan_s <<")
+nermin.run_until_disconnected()
