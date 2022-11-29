@@ -16,7 +16,7 @@ import random
 @Nermin.on(events.NewMessage)
 async def yeni_mesaj(event: events.NewMessage.Event):
     mesaj = str(event.raw_text)
-    if mesaj == f"{random.choice(salam)}":
+    if mesaj == f"{salam}":
       await event.reply(f"{random.choice(salam)}")
 
 @Nermin.on(events.NewMessage)
