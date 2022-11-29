@@ -18,7 +18,7 @@ import random
 @Nermin.on(events.ChatAction)
 async def handler(event):
     if event.user_joined:
-        await event.reply(f"{yeni_user}")
+        await event.reply(f"{random.choice(yeni_user)}")
 
 
 
@@ -32,6 +32,7 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(necesen)}")
 
+@Nermin.on(events.NewMessage(pattern=r'sağol (\w+)!'))
 @Nermin.on(events.NewMessage(pattern=r'sagol (\w+)!'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(sagol)}")
