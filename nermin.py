@@ -4,3 +4,17 @@
 
 # t.me/RoBotlarimTg | YouTube: RoBotlarimTg |
 # t.mr/aykhan_s | insta: aykhan026 | 
+
+
+
+from komekci.aykhan import nermin
+from telethon import events, Button
+
+
+
+nermin.on(events.NewMessage)
+async def yeni_mesaj(event: events.NewMessage.Event):
+  if event.is_private:
+    mesaj = str(event.raw_text)
+    if mesaj == "salam":
+      await event.reply("Salam")
