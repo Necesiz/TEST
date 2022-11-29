@@ -8,7 +8,7 @@
 
 
 from komekci.aykhan import Nermin
-from mesajlar import salam
+from mesajlar.mesaj import salam
 from telethon import events, Button
 import random
 
