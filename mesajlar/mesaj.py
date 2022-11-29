@@ -29,3 +29,27 @@ sagol = (
 "Sağol canım benim 🫶",
 "Sağol Kişi 🔥",
 )
+
+getdim = (
+"Hara",
+)
+
+geldim = (
+"Xoş Gəldin ❤️",
+)
+
+nermin = (
+"Haycannn",
+"Haycannn, Quzu kəsime sənə",
+"Bəliii🫶",
+"Nə gözəl deyirsəne, birdə de",
+)
+
+ban = (
+"Vəhşii",
+"Həri Vəhşii",
+"Vəhşi Panteramm kimə ban atdın",
+"Havada ban kokusu var",
+)
+
+
