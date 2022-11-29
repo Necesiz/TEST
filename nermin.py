@@ -9,7 +9,7 @@
 
 from komekci.aykhan import Nermin
 from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, nermin, ban, start
-from mesajlar.qrup import yeni_user
+from mesajlar.bot import yeni_user, start
 from telethon import events, Button
 import random
 
