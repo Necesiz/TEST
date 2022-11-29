@@ -17,11 +17,11 @@ import random
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(salam)}")
 
-@Nermin.on(events.NewMessage(pattern='(?i)necəsən+necesen'))
+@Nermin.on(events.NewMessage(pattern=r'necəsən (\w+)!'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(necesen)}")
 
-@Nermin.on(events.NewMessage(pattern='(?i)sağol+sagol'))
+@Nermin.on(events.NewMessage(pattern=r'sagol (\w+)!'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(sagol)}")
 
