@@ -1,0 +1,1 @@
+Burdan nəyisə kopyalıyan peysərdi
