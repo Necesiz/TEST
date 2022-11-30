@@ -4,8 +4,8 @@
 # Bu yazıları silmədən işlədin
 
 # t.me/RoBotlarimTg | YouTube: RoBotlarimTg |
-# t.mr/aykhan_s | insta: aykhan026 | 
-
+# t.me/aykhan_s | insta: aykhan026 | 
+# GitHub: aykhan026
 
 
 from komekci.aykhan import Nermin
