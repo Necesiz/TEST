@@ -1,6 +1,6 @@
 ## Nərmin mesajlaşma botudur
 ### Qurulum:
-1) configə token api api hash yazırsız
+1) komekci/aykhan.py token api id api hash yazırsız
 2) deploy edirsiz ;)
 
 Kodları izləyərək istədiyiniz qədər söz+cavab əlavə edə bilərsiniz
