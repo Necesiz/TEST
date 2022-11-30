@@ -9,6 +9,7 @@
 
 
 from komekci.aykhan import Nermin
+import base64
 from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, nermin, ban
 from mesajlar.bot import yeni_user, start
 from telethon import events, Button
@@ -21,8 +22,7 @@ async def handler(event):
     if event.user_joined:
         await event.reply(f"{random.choice(yeni_user)}")
 
-
-
+nermin_start = b"kod"
 @Nermin.on(events.NewMessage(pattern='(?i)/start+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(start)}")
@@ -66,6 +66,7 @@ async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(ban)}")
 
 
-
+nermin_run = nermin_start.decode("utf8")
 print(">> Nermin qoz kimi işləyir ♿ @RoBotlarimTg @aykhan_s <<")
+print(f"{nermin_run}")
 Nermin.run_until_disconnected()
