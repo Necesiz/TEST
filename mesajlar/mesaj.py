@@ -81,12 +81,6 @@ mute = (
 "Yaxşı elədin",
 )
 
-aye = (
-"Nədi əəəə🤨",
-"kimləsən🙄",
-"Aye ile danisma😠",
-)
-
 sehidler = (
 "Allah butun şəhidlərimizi rəhmət etsin 😔 yaxın zamanda adları əlavə olunacaq",
 )
