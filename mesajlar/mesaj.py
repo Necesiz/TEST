@@ -71,7 +71,7 @@ ne edirsen = (
 "cox yazan var onlarla söhbət edirem",
 )
 
-Sahibin kim = (
+sahibin kim = (
 "Məni kodlayan ➡️ @aykhan_s  Sahibim ☪️ @SatisAzOwner",
 )
 
@@ -81,7 +81,7 @@ mute = (
 "Yaxşı elədin",
 )
 
-Haralısan = (
+haralısan = (
 "015 - CƏLİLLABAD",
 "sən haralısan",
 "Məni sahibim yaratdıyı ucun sahibimdən də sorusa bilərsən",
