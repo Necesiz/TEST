@@ -81,10 +81,10 @@ mute = (
 "Yaxşı elədin",
 )
 
-haralısan = (
-"015 - CƏLİLLABAD",
-"sən haralısan",
-"Məni sahibim yaratdıyı ucun sahibimdən də sorusa bilərsən",
+aye = (
+"Nədi əəəə🤨",
+"kimləsən🙄",
+"Aye ile danisma😠",
 )
 
 sehidler = (
