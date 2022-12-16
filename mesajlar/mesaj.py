@@ -45,7 +45,7 @@ geldim = (
 "Xoş Gəldin ❤️",
 )
 
-nermin = (
+bot = (
 "Haycannn",
 "Haycannn, Quzu kəsime sənə",
 "Bəliii🫶",
@@ -59,4 +59,35 @@ ban = (
 "Havada ban kokusu var",
 )
 
+hardasan = (
+"Burda😀",
+"Burdayam",
+"eee nedi burdayamda🤕",
+)
+
+ne iş gorursen = (
+"Doslarla sohbet edirem",
+"Qrupda sohbet edirem sen de gel @TacikistanOdlarYurdu",
+"cox yazan var onlarla söhbət edirem",
+)
+
+Sahibin kim = (
+"Məni kodlayan ➡️ @aykhan_s  Sahibim ☪️ @SatisAzOwner",
+)
+
+Yaşın necedi = (
+"17/12/2022 tarixində yaradıldım ne mutluyum ben burdayim🥰",
+"Neçə yas verərsən😁",
+"Bəs sənin neçə yasin var🤔",
+)
+
+Haralısan = (
+"015 - CƏLİLLABAD",
+"sən haralısan",
+"Məni sahibim yaratdıyı ucun sahibimdən də sorusa bilərsən",
+)
+
+Şəhidlər = (
+"Allah butun şəhidlərimizi rəhmət etsin 😔 yaxın zamanda adları əlavə olunacaq",
+)
 
