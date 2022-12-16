@@ -10,7 +10,7 @@
 
 from komekci.aykhan import Nermin
 import base64
-from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, bot, ban, hardasan, ne edirsen, sahibin kim, mute, sehidler
+from mesajlar.mesaj import salam, necesen, sagol, getdim, geldim, bot, ban, hardasan, ne edirsen, sahibin kim, sehidler
 from mesajlar.bot import yeni_user, start
 from telethon import events, Button
 import random
@@ -65,7 +65,32 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(ban)}")
 
+@Nermin.on(events.NewMessage(pattern='(?i)hardasan+'))
+@Nermin.on(events.NewMessage(pattern='(?i)haradasan+'))
+@Nermin.on(events.NewMessage(pattern='(?i)hardeydin+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(hardasan)}")
 
+@Nermin.on(events.NewMessage(pattern='(?i)ne edirsen+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nə edirsən+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nə iş görürsən+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(ne edirsen)}")    
+
+@Nermin.on(events.NewMessage(pattern='(?i)sahibin kim+'))
+@Nermin.on(events.NewMessage(pattern='(?i)kim yaratdı+'))
+@Nermin.on(events.NewMessage(pattern='(?i)səni yaradan kim+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(sahibin kim)}")
+
+    
+@Nermin.on(events.NewMessage(pattern='(?i)sehidler+'))
+@Nermin.on(events.NewMessage(pattern='(?i)şəhidlər+'))
+@Nermin.on(events.NewMessage(pattern='(?i)şəhid+'))
+async def yeni_mesaj(event: events.NewMessage.Event):
+    await event.reply(f"{random.choice(sehidler)}")
+
+    
 nermin_run = nermin_start.decode("utf8")
 print(">> Nermin qoz kimi işləyir ♿ @RoBotlarimTg @aykhan_s <<")
 print(f"{nermin_run}")
