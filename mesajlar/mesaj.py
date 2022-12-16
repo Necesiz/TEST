@@ -65,7 +65,7 @@ hardasan = (
 "eee nedi burdayamda🤕",
 )
 
-ne iş gorursen = (
+ne is gorursen = (
 "Doslarla sohbet edirem",
 "Qrupda sohbet edirem sen de gel @TacikistanOdlarYurdu",
 "cox yazan var onlarla söhbət edirem",
