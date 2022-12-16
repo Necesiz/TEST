@@ -75,12 +75,6 @@ sahibin kim = (
 "Məni kodlayan ➡️ @aykhan_s  Sahibim ☪️ @SatisAzOwner",
 )
 
-mute = (
-"Çox danisirlar ee basin burax 😏",
-"Qrupda qaydalara baxmayana bu cəza əladı",
-"Yaxşı elədin",
-)
-
 sehidler = (
 "Allah butun şəhidlərimizi rəhmət etsin 😔 yaxın zamanda adları əlavə olunacaq",
 )
