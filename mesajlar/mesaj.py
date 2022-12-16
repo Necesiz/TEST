@@ -75,7 +75,7 @@ Sahibin kim = (
 "Məni kodlayan ➡️ @aykhan_s  Sahibim ☪️ @SatisAzOwner",
 )
 
-Yaşın necedi = (
+Yas kaç = (
 "17/12/2022 tarixində yaradıldım ne mutluyum ben burdayim🥰",
 "Neçə yas verərsən😁",
 "Bəs sənin neçə yasin var🤔",
@@ -87,7 +87,7 @@ Haralısan = (
 "Məni sahibim yaratdıyı ucun sahibimdən də sorusa bilərsən",
 )
 
-Şəhidlər = (
+sehidler = (
 "Allah butun şəhidlərimizi rəhmət etsin 😔 yaxın zamanda adları əlavə olunacaq",
 )
 
