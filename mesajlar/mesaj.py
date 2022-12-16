@@ -75,10 +75,10 @@ Sahibin kim = (
 "Məni kodlayan ➡️ @aykhan_s  Sahibim ☪️ @SatisAzOwner",
 )
 
-Yas kac = (
-"17/12/2022 tarixində yaradıldım ne mutluyum ben burdayim🥰",
-"Neçə yas verərsən😁",
-"Bəs sənin neçə yasin var🤔",
+mute = (
+"Çox danisirlar ee basin burax 😏",
+"Qrupda qaydalara baxmayana bu cəza əladı",
+"Yaxşı elədin",
 )
 
 Haralısan = (
