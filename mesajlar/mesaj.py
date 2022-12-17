@@ -65,13 +65,13 @@ hardasan = (
 "eee nedi burdayamda🤕",
 )
 
-ne edirsen = (
+ne_edirsen = (
 "Doslarla sohbet edirem",
 "Qrupda sohbet edirem sen de gel @TacikistanOdlarYurdu",
 "cox yazan var onlarla söhbət edirem",
 )
 
-sahibin kim = (
+sahibin_kim = (
 "Məni kodlayan ➡️ @aykhan_s  Sahibim ☪️ @SatisAzOwner",
 )
 
