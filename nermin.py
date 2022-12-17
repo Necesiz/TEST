@@ -71,17 +71,17 @@ async def yeni_mesaj(event: events.NewMessage.Event):
 async def yeni_mesaj(event: events.NewMessage.Event):
     await event.reply(f"{random.choice(hardasan)}")
 
-@Nermin.on(events.NewMessage(pattern='(?i)ne edirsen+'))
-@Nermin.on(events.NewMessage(pattern='(?i)nə edirsən+'))
-@Nermin.on(events.NewMessage(pattern='(?i)nə iş görürsən+'))
+@Nermin.on(events.NewMessage(pattern='(?i)ne_edirsen+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nə_edirsən+'))
+@Nermin.on(events.NewMessage(pattern='(?i)nə_iş_görürsən+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
-    await event.reply(f"{random.choice(ne edirsen)}")    
+    await event.reply(f"{random.choice(ne_edirsen)}")    
 
-@Nermin.on(events.NewMessage(pattern='(?i)sahibin kim+'))
-@Nermin.on(events.NewMessage(pattern='(?i)kim yaratdı+'))
-@Nermin.on(events.NewMessage(pattern='(?i)səni yaradan kim+'))
+@Nermin.on(events.NewMessage(pattern='(?i)sahibin_kim+'))
+@Nermin.on(events.NewMessage(pattern='(?i)kim_yaratdı+'))
+@Nermin.on(events.NewMessage(pattern='(?i)səni_yaradan_kim+'))
 async def yeni_mesaj(event: events.NewMessage.Event):
-    await event.reply(f"{random.choice(sahibin kim)}")
+    await event.reply(f"{random.choice(sahibin_kim)}")
 
     
 @Nermin.on(events.NewMessage(pattern='(?i)sehidler+'))
